@@ -1,0 +1,60 @@
+.dark{
+    background-color: rgb(186, 137, 64);
+    
+}
+.light{
+    background-color: rgb(205, 255, 234); 
+}
+
+.msg_container{
+    text-align: center;
+    gap: 3vmin;
+}
+.hide{
+    display: none;
+}
+#newgame{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    padding: 1rem;
+    background-color: rgb(69, 47, 47);
+    color: rgb(232, 239, 201);
+}
+
+#heading{
+    text-align: center;
+}
+.container{
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin; 
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 6rem;
+}
+ #btn{
+    border-radius: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vmin;
+    padding: 1rem;
+    background-color: rgb(69, 47, 47);
+    color: rgb(232, 239, 201);
+}
+.one{
+    color: red;
+}
